@@ -1,0 +1,9 @@
+-
+  url: https://www.baidu.com/
+  input:
+    key: By.ID
+    value: kw
+  click:
+    key: By.ID
+    value: su
+  txt: csdn

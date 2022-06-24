@@ -1,0 +1,8 @@
+-
+  username: admin
+  password: shopxo
+  assert: 登录成功
+-
+  username: admin
+  password: shopxoo
+  assert: 密码错误

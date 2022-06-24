@@ -1,0 +1,86 @@
+{
+  "uid" : "d9176b785d3edf7d",
+  "name" : "test_05",
+  "fullName" : "byhy_po.test_case.test_case_01.TestByhy#test_05",
+  "historyId" : "aa5f9102e790d0fca2b6a384797fb091",
+  "time" : {
+    "start" : 1654606545984,
+    "stop" : 1654606546068,
+    "duration" : 84
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestByhy",
+    "time" : {
+      "start" : 1654606543471,
+      "stop" : 1654606544705,
+      "duration" : 1234
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_TestByhy::0",
+    "time" : {
+      "start" : 1654606546352,
+      "stop" : 1654606549450,
+      "duration" : 3098
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "byhy_po.test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_case_01"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestByhy"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-PGI88154"
+  }, {
+    "name" : "thread",
+    "value" : "22064-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "byhy_po.test_case.test_case_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d9176b785d3edf7d.json",
+  "parameterValues" : [ ]
+}
