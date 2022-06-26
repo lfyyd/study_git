@@ -15,6 +15,4 @@ class LoginPage(BasePage):
         self.input(self.user, username)
         self.input(self.word, password)
         self.click(self.btn)
-        ast = self.asser(self.sms)
-        print(ast)
-        assert ast == '操作菜单'
+

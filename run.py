@@ -2,7 +2,7 @@ import pytest
 import os
 
 if __name__ == '__main__':
-    pytest.main()
+    pytest.main(['-m','smoke'])
 
 
 # if __name__ == '__main__':

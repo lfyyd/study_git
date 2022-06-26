@@ -22,9 +22,3 @@ class KehuPage(BasePage):
         self.input(self.dizhi, c)
         self.click(self.btn)
 
-    def kehu_no(self):
-        self.geturl(self.url)
-        self.click(self.data)
-        self.click(self.sc)
-        self.alert()
-

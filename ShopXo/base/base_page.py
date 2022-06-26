@@ -2,7 +2,6 @@ from time import sleep
 
 from prompt_toolkit.contrib.telnet.protocol import EC
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
@@ -12,8 +11,6 @@ class BasePage:
         self.driver = driver
         self.driver.maximize_window()
         self.driver.implicitly_wait(10)
-        # WebDriverWait(driver, 5, 0.5)
-
         # img = self.driver.get_screenshot_as_png() #截图
         # allure.attach(img,f'po实例化完成')
 
@@ -57,15 +54,10 @@ class BasePage:
 
     def get_click(self, loc, locs, locss, txt):  # 弹框点击查找元素
         self.click(loc)
-        # a = self.locator(locs)
-        # WebDriverWait(self.driver,10,0.5).until(EC.element_to_be_clickable(a))
         sleep(1.3)
         self.input(locs, txt)
-        # b = self.locator(locss)
-        # WebDriverWait(self.driver, 10, 0.5).until(EC.element_to_be_clickable(b))
         self.click(locss)
 
-    # def wait(self,loc):
-    #     # a = self.locator(wt)
-    #     WebDriverWait(self.driver, 10, 0.5).until(lambda el:self.locator(loc))
+    def wait(self,loc):
+        WebDriverWait(self.driver, 10, 0.5).until(lambda el: self.locator(loc))
 

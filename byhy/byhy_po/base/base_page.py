@@ -19,13 +19,5 @@ class BasePage:
     def click(self, loc):
         self.locator(loc).click()
 
-    def sleep(self, time):
-        sleep(time)
-
     def alert(self):
         self.driver.switch_to.alert.accept()
-
-    def asser(self,loc):
-        return self.locator(loc).text
-
-

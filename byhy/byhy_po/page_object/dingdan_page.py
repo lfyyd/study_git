@@ -23,9 +23,3 @@ class DingdanPage(BasePage):
         self.click(self.yaop)
         self.input(self.sl, bbb)
         self.click(self.btn)
-
-    def dingdan_no(self):
-        self.geturl(self.url)
-        self.click(self.data)
-        self.click(self.sc)
-        self.alert()
