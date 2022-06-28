@@ -1,5 +1,3 @@
-from time import sleep
-
 import pytest
 from selenium import webdriver
 from byhy.byhy_po.page_object.dingdan_page import DingdanPage
@@ -9,24 +7,29 @@ from byhy.byhy_po.data.open_file import loadyaml
 from byhy.byhy_po.page_object.yaopin_page import YaopinPage
 
 
-@pytest.fixture(scope='session')
-def driver():
-    driver = webdriver.Chrome()
-    lp = LoginPage(driver)
-    lp.login('byhy', '88888888')
-    yield driver
-    sleep(2)
-    driver.quit()
+
 
 @pytest.mark.smoke
-@pytest.mark.parametrize('udata', loadyaml('../data/user.yaml'))
+@pytest.mark.parametrize('udata', loadyaml('./byhy/byhy_po/data/user.yaml'))
 def test_01(udata):
     driver = webdriver.Chrome()
     lp = LoginPage(driver)
     lp.login(udata['username'], udata['password'])
 
-def test_02(driver,udata)
-    dirver = webdriver.Chrome()
 
-if __name__ == "__main__":
-    pytest.main(['-m', 'smoke'])
+@pytest.mark.parametrize('udata', loadyaml('./byhy/byhy_po/data/kehu.yaml'))
+def test_02(driver, udata):
+    kh = KehuPage(driver)
+    kh.kehu(udata['a'], udata['b'],udata['c'])
+
+
+@pytest.mark.parametrize('udata', loadyaml('./byhy/byhy_po/data/yaopin.yaml'))
+def test_03(driver, udata):
+    yp = YaopinPage(driver)
+    yp.yaopin(udata['aa'], udata['bb'], udata['cc'])
+
+
+@pytest.mark.parametrize('udata', loadyaml('./byhy/byhy_po/data/dingdan.yaml'))
+def test_04(driver, udata):
+    dd = DingdanPage(driver)
+    dd.dingdan(udata['aaa'], udata['bbb'])

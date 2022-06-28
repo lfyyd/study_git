@@ -1,5 +1,7 @@
 from time import sleep
 
+from selenium.webdriver.support.wait import WebDriverWait
+
 
 class BasePage:
     def __init__(self, driver):
@@ -21,3 +23,7 @@ class BasePage:
 
     def alert(self):
         self.driver.switch_to.alert.accept()
+
+    def wait(self, loc):
+        WebDriverWait(self.driver, 10, 0.5).until(lambda el: self.locator(loc))
+

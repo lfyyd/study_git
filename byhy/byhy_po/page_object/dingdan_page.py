@@ -15,7 +15,7 @@ class DingdanPage(BasePage):
     data = (By.XPATH, '//*[@id="root"]/div/section[2]/div[3]')
     sc = (By.XPATH, "//*[text()='删除']")
 
-    def dingdan_ok(self, aaa, bbb):
+    def dingdan(self, aaa, bbb):
         self.click(self.kh)
         self.click(self.tj)
         self.input(self.id, aaa)
@@ -23,3 +23,7 @@ class DingdanPage(BasePage):
         self.click(self.yaop)
         self.input(self.sl, bbb)
         self.click(self.btn)
+        self.click(self.data)
+        self.click(self.sc)
+        self.alert()
+

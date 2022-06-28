@@ -1,3 +1,4 @@
+
 from byhy.byhy_po.base.base_page import BasePage
 
 from selenium.webdriver.common.by import By
@@ -17,17 +18,13 @@ class YaopinPage(BasePage):
     data = (By.XPATH, '//*[@id="root"]/div/section[2]/div[3]')
     sc = (By.XPATH, "//*[text()='删除']")
 
-    def yaopin_ok(self, aa, bb, cc):
+    def yaopin(self, aa, bb, cc):
         self.click(self.yp)
         self.click(self.tj)
-        # pdb.set_trace()  # 调试方法
         self.input(self.mc, aa)
         self.input(self.bh, bb)
         self.input(self.ms, cc)
         self.click(self.btn)
-
-    def yaopin_no(self):
-        self.geturl(self.url)
         self.click(self.data)
         self.click(self.sc)
         self.alert()
