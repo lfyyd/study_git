@@ -1,0 +1,162 @@
+{
+  "uid" : "92d916705f0a6576",
+  "name" : "test_02[udata0]",
+  "fullName" : "byhy_po.test_case.test_case_01#test_02",
+  "historyId" : "6914ebf2c81f7713b4882348c13dd413",
+  "time" : {
+    "start" : 1656427034057,
+    "stop" : 1656427035475,
+    "duration" : 1418
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1656427032032,
+      "stop" : 1656427034057,
+      "duration" : 2025
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "47011e287f36d42e",
+      "name" : "元素定位前",
+      "source" : "47011e287f36d42e.attach",
+      "type" : "image/png",
+      "size" : 25251
+    }, {
+      "uid" : "d2adf3957ad74731",
+      "name" : "元素定位前",
+      "source" : "d2adf3957ad74731.attach",
+      "type" : "image/png",
+      "size" : 25505
+    }, {
+      "uid" : "f122158e53d32318",
+      "name" : "元素定位前",
+      "source" : "f122158e53d32318.attach",
+      "type" : "image/png",
+      "size" : 25091
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "1af9d1c69ba5a42c",
+      "name" : "元素定位前",
+      "source" : "1af9d1c69ba5a42c.attach",
+      "type" : "image/png",
+      "size" : 25072
+    }, {
+      "uid" : "baf4fbba0a00e677",
+      "name" : "元素定位前",
+      "source" : "baf4fbba0a00e677.attach",
+      "type" : "image/png",
+      "size" : 71839
+    }, {
+      "uid" : "4d18856c5f5720b0",
+      "name" : "元素定位前",
+      "source" : "4d18856c5f5720b0.attach",
+      "type" : "image/png",
+      "size" : 63965
+    }, {
+      "uid" : "25a912de70d2a495",
+      "name" : "元素定位前",
+      "source" : "25a912de70d2a495.attach",
+      "type" : "image/png",
+      "size" : 65170
+    }, {
+      "uid" : "859a830d77092184",
+      "name" : "元素定位前",
+      "source" : "859a830d77092184.attach",
+      "type" : "image/png",
+      "size" : 66975
+    }, {
+      "uid" : "b8d73121cc259f03",
+      "name" : "元素定位前",
+      "source" : "b8d73121cc259f03.attach",
+      "type" : "image/png",
+      "size" : 67019
+    }, {
+      "uid" : "7625282e293fbe5b",
+      "name" : "元素定位前",
+      "source" : "7625282e293fbe5b.attach",
+      "type" : "image/png",
+      "size" : 60815
+    }, {
+      "uid" : "894bb98ee43ca1ce",
+      "name" : "元素定位前",
+      "source" : "894bb98ee43ca1ce.attach",
+      "type" : "image/png",
+      "size" : 60520
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 8
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1656427038812,
+      "stop" : 1656427042900,
+      "duration" : 4088
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "byhy_po.test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_case_01"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-PGI88154"
+  }, {
+    "name" : "thread",
+    "value" : "35472-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "byhy_po.test_case.test_case_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "udata",
+    "value" : "{'a': '梁枫', 'b': 123456789, 'c': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "92d916705f0a6576.json",
+  "parameterValues" : [ "{'a': '梁枫', 'b': 123456789, 'c': ''}" ]
+}

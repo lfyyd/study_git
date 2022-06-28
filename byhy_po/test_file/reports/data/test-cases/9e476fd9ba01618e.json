@@ -1,0 +1,162 @@
+{
+  "uid" : "9e476fd9ba01618e",
+  "name" : "test_03[udata0]",
+  "fullName" : "byhy_po.test_case.test_case_01#test_03",
+  "historyId" : "3ec91381228076b7c198d7e05dcc3c2b",
+  "time" : {
+    "start" : 1656427036505,
+    "stop" : 1656427037554,
+    "duration" : 1049
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "driver",
+    "time" : {
+      "start" : 1656427032032,
+      "stop" : 1656427034057,
+      "duration" : 2025
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "47011e287f36d42e",
+      "name" : "元素定位前",
+      "source" : "47011e287f36d42e.attach",
+      "type" : "image/png",
+      "size" : 25251
+    }, {
+      "uid" : "d2adf3957ad74731",
+      "name" : "元素定位前",
+      "source" : "d2adf3957ad74731.attach",
+      "type" : "image/png",
+      "size" : 25505
+    }, {
+      "uid" : "f122158e53d32318",
+      "name" : "元素定位前",
+      "source" : "f122158e53d32318.attach",
+      "type" : "image/png",
+      "size" : 25091
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "dc21903773b4b196",
+      "name" : "元素定位前",
+      "source" : "dc21903773b4b196.attach",
+      "type" : "image/png",
+      "size" : 64246
+    }, {
+      "uid" : "4dfce4af0c4f327",
+      "name" : "元素定位前",
+      "source" : "4dfce4af0c4f327.attach",
+      "type" : "image/png",
+      "size" : 70284
+    }, {
+      "uid" : "7610024e3a4b163d",
+      "name" : "元素定位前",
+      "source" : "7610024e3a4b163d.attach",
+      "type" : "image/png",
+      "size" : 63236
+    }, {
+      "uid" : "3a6b11aac0127282",
+      "name" : "元素定位前",
+      "source" : "3a6b11aac0127282.attach",
+      "type" : "image/png",
+      "size" : 64476
+    }, {
+      "uid" : "5158bc98cee22e45",
+      "name" : "元素定位前",
+      "source" : "5158bc98cee22e45.attach",
+      "type" : "image/png",
+      "size" : 65756
+    }, {
+      "uid" : "99804ae2ef8eba1e",
+      "name" : "元素定位前",
+      "source" : "99804ae2ef8eba1e.attach",
+      "type" : "image/png",
+      "size" : 68413
+    }, {
+      "uid" : "74a4634d3653e5e0",
+      "name" : "元素定位前",
+      "source" : "74a4634d3653e5e0.attach",
+      "type" : "image/png",
+      "size" : 61952
+    }, {
+      "uid" : "75336b921e60afa",
+      "name" : "元素定位前",
+      "source" : "75336b921e60afa.attach",
+      "type" : "image/png",
+      "size" : 61648
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 8
+  },
+  "afterStages" : [ {
+    "name" : "driver::0",
+    "time" : {
+      "start" : 1656427038812,
+      "stop" : 1656427042900,
+      "duration" : 4088
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "byhy_po.test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_case_01"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-PGI88154"
+  }, {
+    "name" : "thread",
+    "value" : "35472-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "byhy_po.test_case.test_case_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "udata",
+    "value" : "{'aa': '花露水', 'bb': 'E100732', 'cc': '梁家花露水就是棒'}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9e476fd9ba01618e.json",
+  "parameterValues" : [ "{'aa': '花露水', 'bb': 'E100732', 'cc': '梁家花露水就是棒'}" ]
+}

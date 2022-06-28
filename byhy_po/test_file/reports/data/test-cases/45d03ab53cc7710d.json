@@ -1,0 +1,87 @@
+{
+  "uid" : "45d03ab53cc7710d",
+  "name" : "test_01[udata2]",
+  "fullName" : "byhy_po.test_case.test_case_01#test_01",
+  "historyId" : "07df9fdd89c0a859d35f37b6dfd411b7",
+  "time" : {
+    "start" : 1656427027968,
+    "stop" : 1656427032020,
+    "duration" : 4052
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "aa2264a1750d6e00",
+      "name" : "元素定位前",
+      "source" : "aa2264a1750d6e00.attach",
+      "type" : "image/png",
+      "size" : 25251
+    }, {
+      "uid" : "e04718e1ed7947d2",
+      "name" : "元素定位前",
+      "source" : "e04718e1ed7947d2.attach",
+      "type" : "image/png",
+      "size" : 25274
+    }, {
+      "uid" : "7e7ab4028893cbed",
+      "name" : "元素定位前",
+      "source" : "7e7ab4028893cbed.attach",
+      "type" : "image/png",
+      "size" : 25271
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 3
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "byhy_po.test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_case_01"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-PGI88154"
+  }, {
+    "name" : "thread",
+    "value" : "35472-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "byhy_po.test_case.test_case_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "udata",
+    "value" : "{'username': '', 'password': ''}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "45d03ab53cc7710d.json",
+  "parameterValues" : [ "{'username': '', 'password': ''}" ]
+}
