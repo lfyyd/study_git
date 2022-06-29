@@ -1,0 +1,59 @@
+{
+  "uid" : "5a74ac64239e3d72",
+  "name" : "test_01[udata0]",
+  "fullName" : "byhy_po.test_case.test_case_01#test_01",
+  "historyId" : "bd698688cd9f6c1ffb6b68998be94dfe",
+  "time" : {
+    "start" : 1656508117655,
+    "stop" : 1656508121821,
+    "duration" : 4166
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "smoke"
+  }, {
+    "name" : "parentSuite",
+    "value" : "byhy_po.test_case"
+  }, {
+    "name" : "suite",
+    "value" : "test_case_01"
+  }, {
+    "name" : "host",
+    "value" : "LAPTOP-PGI88154"
+  }, {
+    "name" : "thread",
+    "value" : "7144-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "byhy_po.test_case.test_case_01"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "udata",
+    "value" : "{'username': 'byhy', 'password': 88888888}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "smoke" ]
+  },
+  "source" : "5a74ac64239e3d72.json",
+  "parameterValues" : [ "{'username': 'byhy', 'password': 88888888}" ]
+}

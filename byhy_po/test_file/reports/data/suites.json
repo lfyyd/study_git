@@ -1,0 +1,104 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "byhy_po.test_case",
+    "children" : [ {
+      "name" : "test_case_01",
+      "children" : [ {
+        "name" : "test_01[udata0]",
+        "uid" : "5a74ac64239e3d72",
+        "parentUid" : "a31e279574bd5948f8a114da42750e2d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656508117655,
+          "stop" : 1656508121821,
+          "duration" : 4166
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': 'byhy', 'password': 88888888}" ]
+      }, {
+        "name" : "test_01[udata1]",
+        "uid" : "635bab00cb6d9163",
+        "parentUid" : "a31e279574bd5948f8a114da42750e2d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656508121835,
+          "stop" : 1656508125828,
+          "duration" : 3993
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': 'byhy', 'password': 0}" ]
+      }, {
+        "name" : "test_01[udata2]",
+        "uid" : "da23e9d87f24be3c",
+        "parentUid" : "a31e279574bd5948f8a114da42750e2d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656508125831,
+          "stop" : 1656508129637,
+          "duration" : 3806
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'username': '', 'password': ''}" ]
+      }, {
+        "name" : "test_02[udata0]",
+        "uid" : "c531597cab7ca2c7",
+        "parentUid" : "a31e279574bd5948f8a114da42750e2d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656508131633,
+          "stop" : 1656508132216,
+          "duration" : 583
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'a': '梁枫', 'b': 123456789, 'c': ''}" ]
+      }, {
+        "name" : "test_02[udata1]",
+        "uid" : "2931ecdde4dc9cf8",
+        "parentUid" : "a31e279574bd5948f8a114da42750e2d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656508132219,
+          "stop" : 1656508132389,
+          "duration" : 170
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'a': '梁枫', 'b': 123456789, 'c': '杭州'}" ]
+      }, {
+        "name" : "test_03[udata0]",
+        "uid" : "44ef0b6166ab537a",
+        "parentUid" : "a31e279574bd5948f8a114da42750e2d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656508132392,
+          "stop" : 1656508132629,
+          "duration" : 237
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'aa': '花露水', 'bb': 'E100732', 'cc': '梁家花露水就是棒'}" ]
+      }, {
+        "name" : "test_04[udata0]",
+        "uid" : "b7f87acaf9b3250d",
+        "parentUid" : "a31e279574bd5948f8a114da42750e2d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1656508132632,
+          "stop" : 1656508132872,
+          "duration" : 240
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{'aaa': '枫谷', 'bbb': 1}" ]
+      } ],
+      "uid" : "a31e279574bd5948f8a114da42750e2d"
+    } ],
+    "uid" : "d6fcd80a95303387e7b6f3ea607cea7e"
+  } ]
+}
