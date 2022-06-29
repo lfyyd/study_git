@@ -17,8 +17,6 @@ class BasePage:
         self.driver.get(url)
 
     def locator(self, loc):
-        img = self.driver.get_screenshot_as_png()
-        allure.attach(img, f'元素定位前')
         return self.driver.find_element(*loc)
 
     def input(self, loc, txt):
