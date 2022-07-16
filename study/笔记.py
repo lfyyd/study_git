@@ -35,3 +35,9 @@ name = input('提示语句'） 所有键盘输入的内容都是字符串类型�
 比较运算符： 结果：True False   > < >=  <= == != is
 逻辑运算符:  and or not
 '''
+from selenium import webdriver
+
+driver = webdriver.Chrome()
+
+driver.switch_to.frame()
+driver.switch_to.default_content()
